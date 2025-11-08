@@ -23,10 +23,10 @@ EE308-Ass1-Backend-Project-Directory-Structure/
 │
 ├── README.md                    # 项目说明文档（当前文件）
 └── codestyle.md                 # 代码规范说明文档
-
+```
 
 ## 🚀快速开始
-
+```bash
 1️⃣ 克隆项目
 git clone https://github.com/FANR888/EE308-Ass1-Backend-Project-Directory-Structure.git
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 # 如果没有，可手动安装 Django
 pip install django
-
+```
 5️⃣ 进行数据库迁移
 python manage.py migrate
 
