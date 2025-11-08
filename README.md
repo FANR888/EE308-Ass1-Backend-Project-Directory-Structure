@@ -19,7 +19,7 @@ EE308-Ass1-Backend-Project-Directory-Structure/
 │       ├── manage.py            # Django 管理脚本
 │       ├── backend/             # Django 项目配置（settings、urls 等）
 │       └── contacts/            # 联系人相关应用（models、views、urls 等）
-│
+├── requirements.txt             # 项目依赖包文档
 ├── README.md                    # 项目说明文档（当前文件）
 └── codestyle.md                 # 代码规范说明文档
 ```
@@ -30,7 +30,7 @@ EE308-Ass1-Backend-Project-Directory-Structure/
 git clone https://github.com/FANR888/EE308-Ass1-Backend-Project-Directory-Structure.git
 
 2️⃣ 进入项目目录
-cd EE308-Ass1-Backend-Project-Directory-Structure/832301220_concacts_backend/src
+cd EE308-Ass1-Backend-Project-Directory-Structure/832301220_concacts_backend
 
 3️⃣ （可选）创建并激活虚拟环境
 # Windows
@@ -42,10 +42,10 @@ python3 -m venv venv
 source venv/bin/activate
 
 4️⃣ 安装依赖
-# 如果有 requirements.txt
+# 优先使用requirements.txt安装依赖
 pip install -r requirements.txt
 
-# 如果没有，可手动安装 Django
+# 若出现问题也可手动安装 Django
 pip install django
 
 5️⃣ 进行数据库迁移
