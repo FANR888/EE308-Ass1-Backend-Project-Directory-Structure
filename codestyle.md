@@ -29,10 +29,11 @@ EE308-Ass1-Backend-Project-Directory-Structure/
 │       ├── manage.py            # Django 管理脚本
 │       ├── backend/             # Django 项目配置（settings、urls 等）
 │       └── contacts/            # 联系人相关应用（models、views、urls 等）
-│
-├── README.md                    # 项目说明文档（当前文件）
-└── codestyle.md                 # 代码规范说明文档
+├── requirements.txt             # 项目依赖包文档
+├── README.md                    # 项目说明文档
+└── codestyle.md                 # 代码规范说明文档（当前文件）
 ```
+
 
 ## 2. 📝 命名规范
 
